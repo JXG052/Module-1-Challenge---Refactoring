@@ -14,10 +14,12 @@ This is a fairly simple repo. Refactoring was done locally in VS code.
 
 ## Usage
 
-```md
-![alt text](assets/images/Horiseon-image-template.png)
-```
 Website needs to look the same as this image whilst improving accessibility and SEO. 
+![alt text](assets/images/Horiseon-image-template.png)
+
+Link to [Live-Page](https://jxg052.github.io/Module-1-Challenge---Refactoring/#search-engine-optimization)
+
+
 
 ## Credits
 

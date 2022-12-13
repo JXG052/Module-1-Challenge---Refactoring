@@ -21,7 +21,7 @@ header {
     font-size: 48px;
 }
 /* changes color of 'seo' within the main heading */
-header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 /* targets the nav bar within the header */
