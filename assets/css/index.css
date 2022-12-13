@@ -3,46 +3,46 @@
     padding: 0;
     margin: 0;
 }
-
+/* set default background color and font color */
 body {
     background-color: #d9dcd6;
+    color: #ffffff;
 }
-
+/* targets the header, changing font background-color and padding */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    
 }
-
-header h1 {
+/* sets font size for main heading */
+ h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* changes color of 'seo' within the main heading */
 header h1 .seo {
     color: #d9dcd6;
 }
-
-header nav {
+/* targets the nav bar within the header */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-
-header nav ul li {
+/* add a left margin for the list items in the nav bar */
+li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* remove underline from links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets size of the main image */
 .main-img {
     height: 800px;
     width: 100%;
@@ -50,18 +50,18 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/* used to position images */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* used to position images */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/* Targets elements within the main element*/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -93,7 +93,7 @@ aside img {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*each section within the main part of the page */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,7 +102,7 @@ main section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets the maximum height of any image within the main part of the page */
 main img {
     max-height: 200px;
 }
@@ -111,7 +111,7 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* targeting footer element */
 footer {
     padding: 30px;
     clear: both;
